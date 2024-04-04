@@ -11,7 +11,7 @@ function sendEmail() {
     Username: "muhammadkevinalvarel@gmail.com",
     Password: "8DD99BB2B766A8B103C87BA847D87D800DA6",
     To: "muhammadkevinalvarel@gmail.com",
-    From: "muhammadkevinalvarel@gmail.com",
+    From: "alvarelkevin12@gmail.com",
     Subject: "Ini Subject",
     Body: bodyMessage,
   }).then((message) => alert(message));
