@@ -4,7 +4,7 @@ const email = document.getElementById("Email");
 const message = document.getElementById("Message");
 
 function sendEmail() {
-  const bodyMessage = `name: ${Name.value}<br> email: ${Email.value}<br> message ${Message.value}`;
+  const bodyMessage = `name: ${Name.value}<br> email: ${email.value}<br> message ${Message.value}`;
 
   Email.send({
     Host: "smtp.elasticemail.com",
